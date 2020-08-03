@@ -35,7 +35,7 @@ end
   end
   
   def void_last_transaction
-    @total -= @last_item_price * @last_item_quantity
+    @total -= (@last_item_price * @last_item_quantity)
   end
   
 end
